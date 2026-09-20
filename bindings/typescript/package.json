@@ -18,10 +18,13 @@
       "import": "./dist/scip_pb.js"
     }
   },
-  "files": ["dist", "LICENSE"],
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
   "sideEffects": false,
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
